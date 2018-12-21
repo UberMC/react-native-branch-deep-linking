@@ -196,6 +196,13 @@
         @"LINE",        @"jp.naver.line.Share",
 		@"Pinterest",   @"pinterest.ShareExtension",
         @"Skype",       @"com.skype.skype.sharingextension",
+        @"Microsoft", @"com.microsoft.mmx.shareextension",
+        @"Pasteboard", @"com.apple.UIKit.activity.CopyToPasteboard",
+        @"Send to Kindle", @"com.amazon.Lassen.SendToKindleExtension",
+        @"Edison Mail", @"com.easilydo.mail.Share",
+        @"Facebook Messenger", @"com.facebook.Messenger.ShareExtension",
+        @"Reminders", @"com.apple.reminders.RemindersEditorExtension",
+        @"Gmail", @"com.google.Gmail.ShareExtension",
 
         //  Keys for older app versions --
 
