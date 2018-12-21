@@ -6,6 +6,7 @@
 #import "BranchLinkProperties+RNBranch.h"
 #import "BranchUniversalObject+RNBranch.h"
 #import "RNBranchAgingDictionary.h"
+#import "BranchActivityItemProvider.h"
 #import "RNBranchConfig.h"
 #import "RNBranchEventEmitter.h"
 
@@ -447,7 +448,7 @@ RCT_EXPORT_METHOD(
                                                 }
 
                                                 NSDictionary *result = @{
-                                                                         @"channel" : activityType ?: [NSNull null],
+                                                                         @"channel" : [BranchActivityItemProvider humanReadableChannelWithActivityType:activityType] ?: [NSNull null],
                                                                          @"completed" : @(completed),
                                                                          @"error" : [NSNull null]
                                                                          };
